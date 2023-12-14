@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МОНЕКС</title>
+    <link rel="icon" href="svg/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="info_header">
+            <div class="box_logo">
+                <img src="svg/logo.svg" alt="">
+                <a class="info_header_txt" href="index.html">МОНЕКС</a>
+            </div>
+
+            <div class="info_header_contacts">
+                <div class="header_local">
+                    <svg class="header_local_svg" viewBox="0 0 11 15" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.3049 0.000854492C2.38797 0.000854492 0.0148926 2.37394 0.0148926 5.29083C0.0148926 8.91079 4.74893 14.2251 4.95049 14.4496C5.1398 14.6604 5.47034 14.6601 5.65931 14.4496C5.86087 14.2251 10.5949 8.91079 10.5949 5.29083C10.5948 2.37394 8.2218 0.000854492 5.3049 0.000854492ZM5.3049 7.95237C3.83732 7.95237 2.64339 6.75841 2.64339 5.29083C2.64339 3.82326 3.83735 2.62933 5.3049 2.62933C6.77245 2.62933 7.96638 3.82328 7.96638 5.29086C7.96638 6.75844 6.77245 7.95237 5.3049 7.95237Z"/>
+                    </svg>
+                    <p class="header_txt">ООО СТРОЙБРИГ ИНН: 7720484439</p>
+                </div>
+                <div class="header_time">
+                    <svg class="header_time_svg" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 0C3.35795 0 0 3.35787 0 7.5C0 11.6421 3.35787 15 7.5 15C11.6421 15 15 11.6421 15 7.5C15 3.35787 11.6421 0 7.5 0ZM7.5 2.27273C7.75112 2.27273 7.95451 2.47628 7.95451 2.72723V7.23697L11.4701 9.26826C11.6875 9.39382 11.759 9.66872 11.6334 9.88624C11.5079 10.1036 11.233 10.1751 11.0154 10.0495C9.76889 9.33041 8.51552 8.6072 7.27246 7.89048C7.13675 7.81185 7.04512 7.6679 7.04512 7.49985V2.72713C7.04512 2.47601 7.24868 2.27262 7.49963 2.27262L7.5 2.27273Z"/>
+                    </svg>
+                    <p class="header_txt">Пн-Вс с 9:00 до 20:00</p>
+                </div>
+                <div class="header_mail">
+                    <svg class="header_mail_svg" viewBox="0 0 18 14" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.6637 7.74756L10.1561 9.26019C9.54478 9.87367 8.46914 9.88689 7.84459 9.26019L6.33699 7.74756L0.922363 13.1798C1.12391 13.273 1.34614 13.3286 1.58239 13.3286H16.4183C16.6546 13.3286 16.8767 13.273 17.0782 13.1798L11.6637 7.74756Z"/>
+                        <path d="M16.4183 0.670898H1.58232C1.34607 0.670898 1.12384 0.726516 0.922363 0.819715L6.70827 6.62482C6.70866 6.62521 6.70912 6.62528 6.7095 6.62566C6.70989 6.62605 6.70996 6.62658 6.70996 6.62658L8.59128 8.51412C8.79111 8.71394 9.20954 8.71394 9.40936 8.51412L11.2903 6.62689C11.2903 6.62689 11.2908 6.62605 11.2911 6.62566C11.2911 6.62566 11.292 6.62521 11.2924 6.62482L17.0781 0.81968C16.8767 0.726445 16.6545 0.670898 16.4183 0.670898Z"/>
+                        <path d="M0.16777 1.55737C0.0634961 1.76824 -0.000488281 2.00231 -0.000488281 2.25304V11.7452C-0.000488281 11.996 0.0634258 12.23 0.167734 12.4409L5.59175 6.99931L0.16777 1.55737Z"/>
+                        <path d="M17.8309 1.55737L12.407 6.99938L17.8309 12.441C17.9352 12.2302 17.9992 11.9961 17.9992 11.7453V2.25312C17.9992 2.00231 17.9352 1.76824 17.8309 1.55737Z"/>
+                    </svg>
+                    <p class="header_txt">info@a-pallet.ru</p>
+                </div>
+            </div>
+
+            <div class="info_header_call">
+                <svg class="header_call_svg" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.9367 19.1455L21.3592 15.5681C20.0816 14.2904 17.9096 14.8015 17.3985 16.4624C17.0152 17.6123 15.7376 18.2512 14.5877 17.9956C12.0324 17.3568 8.58269 14.0349 7.94387 11.3518C7.56057 10.2019 8.32716 8.9242 9.47705 8.54096C11.138 8.02989 11.6491 5.85788 10.3714 4.58023L6.79398 1.0028C5.77186 0.108442 4.23867 0.108442 3.34431 1.0028L0.916773 3.43034C-1.51077 5.98565 1.1723 12.7572 7.17728 18.7622C13.1822 24.7672 19.9538 27.578 22.5091 25.0227L24.9367 22.5951C25.8311 21.573 25.8311 20.0398 24.9367 19.1455Z"/>
+                </svg>
+                <p class="header_call_txt">+7 495 155 73 97</p>
+            </div>
+
+        </div>
+
+        <div class="slaider">
+            <div class="slaider_slaider">
+                <h1>ПРОДАЖА ПОДДОНОВ Б/У В МОСКВЕ</h1>
+                <p class="slaider_txt">Доставка осуществляется круглосуточно, в любое удобное время</p>
+                <button class="slaider_button">Подробнее</button>
+            </div>
+        </div>
+
+        <div class="header_menu">
+            <div class="menu">
+                <a class="subsection_link" href="#about">О НАС</a>
+                <div class="shelf"></div>
+                <a class="subsection_link" href="#products">ПРОДУКЦИЯ</a>
+                <div class="shelf"></div>
+                <a class="subsection_link" href="#what">ПРИЕМУЩЕСТВА</a>
+                <div class="shelf"></div>
+                <a class="subsection_link" href="#forms">КОНТАКТЫ</a>
+            </div>
+            <button class="button">
+                <svg class="button_svg" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.5579 18.0758C11.9674 18.0758 11.3844 17.9073 10.8857 17.5882C6.54331 14.8088 2.91579 10.9649 0.395448 6.47178C-0.285023 5.25866 -0.0721436 3.72327 0.913162 2.738L2.84405 0.807113C3.60217 0.0489962 4.83566 0.0489962 5.59377 0.807113L7.29552 2.50886C8.05364 3.26694 8.05364 4.50047 7.29552 5.25854L6.28938 6.26469C7.73324 8.28276 9.45301 10.0727 11.4111 11.5957L12.522 10.485C13.2801 9.72682 14.5135 9.72686 15.2716 10.485L16.9758 12.1892C17.732 12.9454 17.7336 14.1773 16.9794 14.9354L14.7727 17.1533C14.2729 17.6557 13.6102 17.9763 12.9067 18.0561C12.7905 18.0693 12.674 18.0758 12.5579 18.0758V18.0758Z"/>
+                    <path d="M17.927 1.12089H11.8695C12.0274 0.937253 12.061 0.667254 11.9331 0.445656C11.7711 0.16514 11.4125 0.06908 11.132 0.231017L9.4546 1.19943C9.27315 1.30417 9.16138 1.49778 9.16138 1.70729C9.16138 1.91681 9.27315 2.11042 9.4546 2.21516L11.132 3.18357C11.2243 3.2369 11.3252 3.26223 11.4247 3.26223C11.6273 3.26223 11.8245 3.15706 11.9331 2.96893C12.061 2.74733 12.0273 2.47737 11.8695 2.29374H17.927C18.423 2.29374 18.8264 2.69717 18.8264 3.19311C18.8264 3.68905 18.423 4.09248 17.927 4.09248H13.1157C12.7918 4.09248 12.5293 4.35505 12.5293 4.67893C12.5293 5.0028 12.7918 5.26537 13.1157 5.26537H17.927C19.0697 5.26537 19.9993 4.33578 19.9993 3.19311C19.9993 2.05048 19.0697 1.12089 17.927 1.12089V1.12089Z"/>
+                </svg>
+                <p class="button_txt">Обратный звонок</p>
+            </button>
+        </div>
+    </header>
+    
+    <section class="section_products" id="products">
+        <div class="products">
+            <div class="products_products">
+                <h2 class="h2_products">ДЕРЕВЯННЫЕ ПОДДОНЫ Б/У</h2>
+            </div>
+            <div class="products_elemets_top">
+                <div class="products_elemet">
+                    <img class="products_img" src="img/2.png" alt="">
+                    <h3 class="products_h3">ОБЛЕГЧЕННЫЙ ПОДДОН <br class="products_h3-br">1200X800</h3>
+                    <p class="products_txt">Размер: 1200х800 мм тонкий<br>Грузоподъемность: 600-800 кг<br>Толщина доски: 15-17мм</p>
+                    <button class="products_button">Заказать</button>
+                </div>
+                <div class="products_elemet">
+                    <img class="products_img" src="img/3.png" alt="">
+                    <h3 class="products_h3">ТИПОВОЙ 1-Й СОРТ <br class="products_h3-br">1200X800</h3>
+                    <p class="products_txt">Размер: 1200х800 мм<br>Грузоподъемность: 1500 кг<br>Толщина доски: 22мм</p>
+                    <button class="products_button">Заказать</button>
+                </div>
+                <div class="products_elemet">
+                    <img class="products_img" src="img/4.png" alt="">
+                    <h3 class="products_h3">ТИПОВОЙ 2-Й СОРТ <br class="products_h3-br">1200X800</h3>
+                    <p class="products_txt">Размер: 1200х800 мм<br>Грузоподъемность: 1500 кг<br>Толщина доски: 22мм</p>
+                    <button class="products_button">Заказать</button>
+                </div>
+            </div>
+            <div class="products_elemets_botton">
+                <div class="products_elemet">
+                    <img class="products_img" src="img/5.png" alt="">
+                    <h3 class="products_h3">ЕВРОПОДДОН 1-Й СОРТ <br class="products_h3-br">1200X800</h3>
+                    <p class="products_txt">Размер: 1200х800 мм<br>Грузоподъемность: 2500 кг<br>Толщина доски: 22-25 мм</p>
+                    <button class="products_button">Заказать</button>
+                </div>
+                <div class="products_elemet">
+                    <img class="products_img" src="img/6.png" alt="">
+                    <h3 class="products_h3">ЕВРОПОДДОН 2-Й СОРТ <br class="products_h3-br">1200X800</h3>
+                    <p class="products_txt">Размер: 1200х800 мм<br>Грузоподъемность: 2500 кг<br>Толщина доски: 22-25 мм</p>
+                    <button class="products_button">Заказать</button>
+                </div>
+                <div class="products_elemet">
+                    <img class="products_img" src="img/7.png" alt="">
+                    <h3 class="products_h3">ПЛОЩАДКА <br class="products_h3-br">1200X1000</h3>
+                    <p class="products_txt">Размер: 1200х1000 мм<br>Грузоподъемность: 1500-2000 кг</p>
+                    <button class="products_button">Заказать</button>
+                </div>
+            </div>
+    </section>
+
+    <section class="section_about" id="about">
+        <div class="section_about_us">
+            <div class="section_about_about_us">
+                <h2 class="h2_about_us">О НАС</h2>
+            </div>
+            <div class="about_elemets">
+                <div class="about_elemet we">
+                    <h3 class="about_h3">Мы</h3>
+                    <h4 class="about_h4">10 ЛЕТ</h4>
+                    <p class="about_txt">на паллетном<br>рынке</p>
+                </div>
+                <div class="about_elemet you">
+                    <h3 class="about_h3">У нас</h3>
+                    <h4 class="about_h4">12</h4>
+                    <p class="about_txt">складов по<br>ЦФО</p>
+                </div>
+                <div class="about_elemet dost">
+                    <h3 class="about_h3">Доставка</h3>
+                    <h4 class="about_h4">24 ЧАСА</h4>
+                    <p class="about_txt">в сутки, в<br>любое время</p>
+                </div>
+                <div class="about_elemet like">
+                    <h3 class="about_h3">У нас</h3>
+                    <h4 class="about_h4">50 +</h4>
+                    <p class="about_txt">постоянных<br>клиентов</p>
+                </div>
+                <div class="about_elemet annually">
+                    <h3 class="about_h3">Ежегодно</h3>
+                    <h4 class="about_h4">300 000 +</h4>
+                    <p class="about_txt">единиц<br>годовой оборот</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_what" id="what">
+        <div class="what">
+            <div class="what_what">
+                <h2 class="h2_what">ПОЧЕМУ С НАМИ ВЫГОДНО</h2>
+            </div>
+            <div class="what_elemets_top">
+                <div class="what_elemet">
+                    <p class="what_what_txt">01</p>
+                    <h3 class="what_h3">НАЛИЧИЕ ТОВАРА</h3>
+                    <p class="what_txt">Подходящие поддоны есть всегда!<br>Мы подберём необходимый паллет.</p>
+                </div>
+                <div class="what_elemet">
+                    <p class="what_what_txt">02</p>
+                    <h3 class="what_h3">СТАБИЛЬНОСТЬ</h3>
+                    <p class="what_txt">Наша надежность подтверждена<br>рекомендациями ведущих<br>компаний.</p>
+                </div>
+                <div class="what_elemet">
+                    <p class="what_what_txt">03</p>
+                    <h3 class="what_h3">ПРОФЕССИОНАЛИЗМ</h3>
+                    <p class="what_txt">Анализируем потребности<br>и усовершенствуем услуги.</p>
+                </div>
+                <div class="what_elemet">
+                    <p class="what_what_txt">04</p>
+                    <h3 class="what_h3">КАЧЕСТВО</h3>
+                    <p class="what_txt">У нас многоэтапный контроль<br>качества продукции</p>
+                </div>
+            </div>
+            <div class="what_elemets_botton">
+                <div class="what_elemet">
+                    <p class="what_what_txt">05</p>
+                    <h3 class="what_h3">ЭКОНОМИЧНОСТЬ</h3>
+                    <p class="what_txt">Знаем секреты<br>экономии в области паллетной<br>логистики. Сократите Ваши затраты!</p>
+                </div>
+                <div class="what_elemet">
+                    <p class="what_what_txt">06</p>
+                    <h3 class="what_h3">КРУГЛОСУТОЧНАЯ ДОСТАВКА</h3>
+                    <p class="what_txt">Быстрая и аккуратная доставка<br>собственным транспортом 24/7.</p>
+                </div>
+                <div class="what_elemet">
+                    <p class="what_what_txt">07</p>
+                    <h3 class="what_h3">ОТСРОЧКА ПЛАТЕЖА</h3>
+                    <p class="what_txt">Мы готовы пойти на встречу нашим<br>заказчикам.</p>
+                </div>
+                <div class="what_elemet">
+                    <p class="what_what_txt">08</p>
+                    <h3 class="what_h3">ОПЕРАТИВНОСТЬ</h3>
+                    <p class="what_txt">Оперативный подход, и грамотно<br>выстроенная логистика.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="section_forms" id="forms">
+        <div class="forms">
+            <div class="forms_forms">
+                <h2 class="h2_forms">У ВАС ОСТАЛИСЬ ВОПРОСЫ?</h2>
+            </div>
+            <div class="forms_elemets">
+                <div class="forms_elemets_left">
+                    <img src="img/call_center.png" alt="" class="forms_img">
+                    <div class="forms_sms">
+                        <p class="forms_sms_txt">Мы с удовольствием ответим на<br>все вопросы и проконсультируют<br>по товарным позициям.</p>
+                    </div>
+                </div>
+                <div class="forms_elemets_right">
+                    <h3 class="forms_h3">Отправить заявку</h3>
+                    <form action="#" class="forms_form">
+                        <input type="text" placeholder="Ваше имя" name="name" class="forms_input" required>
+				        <input type="tel" placeholder="Номер телефона" name="tel" class="forms_input" required>
+                        <textarea name="text" id="" class="forms_textarea" placeholder="Введите текст"></textarea>
+                        <div class="forms_checkbox_forms">
+                            <input id="checkbox" type="checkbox" class="forms_checkbox">
+                            <label for="checkbox" class="forms_checkbox_txt">Даю согласие на обработку персональных данных</label>
+                        </div>
+                        <button type="submit" class="forms_button" id="#">Отправить</button>
+                    </form>
+                    <div class="forms_key">
+                        <svg class="forms_key_svg" viewBox="0 0 10 12" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.79567 11.6237H8.21959C8.53891 11.6233 8.84514 11.4963 9.07088 11.2705C9.29672 11.0447 9.42371 10.7385 9.42408 10.4192V6.00275C9.42372 5.68343 9.29673 5.3772 9.07088 5.15146C8.84513 4.92562 8.53888 4.79863 8.21959 4.79826H7.8181V3.19228C7.8181 2.18818 7.28243 1.26036 6.41286 0.758306C5.54329 0.256346 4.47197 0.256346 3.6024 0.758306C2.73283 1.26036 2.19717 2.18818 2.19717 3.19228V4.79826H1.79567C1.47636 4.79862 1.17012 4.92561 0.944388 5.15146C0.718545 5.37722 0.591554 5.68346 0.591187 6.00275V10.4192C0.591545 10.7385 0.718536 11.0447 0.944388 11.2705C1.17014 11.4963 1.47638 11.6233 1.79567 11.6237ZM5.30864 8.81321C5.30864 8.97955 5.17385 9.11434 5.00752 9.11434C4.84118 9.11434 4.7064 8.97955 4.7064 8.81321V7.60873C4.7064 7.4424 4.84118 7.30761 5.00752 7.30761C5.17385 7.30761 5.30864 7.4424 5.30864 7.60873V8.81321ZM3.00016 3.19228C3.00016 2.47505 3.38275 1.81233 4.00389 1.45376C4.62504 1.0952 5.39022 1.0952 6.01137 1.45376C6.63252 1.81233 7.01511 2.47508 7.01511 3.19228V4.79826H3.00016V3.19228Z"/>
+                        </svg>
+                        <p class="forms_key_txt">Ваши данные защищены</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_elements">
+
+                <div class="footer_element_logo">
+                    <div class="footer_logo_box">
+                        <img src="svg/logo.svg" alt="" class="footer_logo_img">
+                        <p class="footer_logo_txt">МОНЕКС</p>
+                    </div>
+                    <p class="footer_key">© Все права защищены.</p>
+                </div>
+
+                <div class="footer_element_menu">
+                    <a href="#about" class="footer_element_menu">О нас</a>
+                    <a href="#products" class="footer_element_menu">Продукция</a>
+                    <a href="#what" class="footer_element_menu">Приемущества</a>
+                    <a href="#forms" class="footer_element_menu_last">Контакты</a>
+                </div>
+
+                <div class="footer_element_info">
+                    <div class="footer_local">
+                        <svg class="footer_local_svg" viewBox="0 0 11 15" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.3049 0.000854492C2.38797 0.000854492 0.0148926 2.37394 0.0148926 5.29083C0.0148926 8.91079 4.74893 14.2251 4.95049 14.4496C5.1398 14.6604 5.47034 14.6601 5.65931 14.4496C5.86087 14.2251 10.5949 8.91079 10.5949 5.29083C10.5948 2.37394 8.2218 0.000854492 5.3049 0.000854492ZM5.3049 7.95237C3.83732 7.95237 2.64339 6.75841 2.64339 5.29083C2.64339 3.82326 3.83735 2.62933 5.3049 2.62933C6.77245 2.62933 7.96638 3.82328 7.96638 5.29086C7.96638 6.75844 6.77245 7.95237 5.3049 7.95237Z"/>
+                        </svg>
+                        <p class="footer_local_txt">ООО СТРОЙБРИГ ИНН:<br>7720484439 ОГРН:<br>1197746616649</p>
+                    </div>
+                    <div class="footer_mail">
+                        <svg class="footer_mail_svg" viewBox="0 0 18 14" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.6637 7.74756L10.1561 9.26019C9.54478 9.87367 8.46914 9.88689 7.84459 9.26019L6.33699 7.74756L0.922363 13.1798C1.12391 13.273 1.34614 13.3286 1.58239 13.3286H16.4183C16.6546 13.3286 16.8767 13.273 17.0782 13.1798L11.6637 7.74756Z"/>
+                            <path d="M16.4183 0.670898H1.58232C1.34607 0.670898 1.12384 0.726516 0.922363 0.819715L6.70827 6.62482C6.70866 6.62521 6.70912 6.62528 6.7095 6.62566C6.70989 6.62605 6.70996 6.62658 6.70996 6.62658L8.59128 8.51412C8.79111 8.71394 9.20954 8.71394 9.40936 8.51412L11.2903 6.62689C11.2903 6.62689 11.2908 6.62605 11.2911 6.62566C11.2911 6.62566 11.292 6.62521 11.2924 6.62482L17.0781 0.81968C16.8767 0.726445 16.6545 0.670898 16.4183 0.670898Z"/>
+                            <path d="M0.16777 1.55737C0.0634961 1.76824 -0.000488281 2.00231 -0.000488281 2.25304V11.7452C-0.000488281 11.996 0.0634258 12.23 0.167734 12.4409L5.59175 6.99931L0.16777 1.55737Z"/>
+                            <path d="M17.8309 1.55737L12.407 6.99938L17.8309 12.441C17.9352 12.2302 17.9992 11.9961 17.9992 11.7453V2.25312C17.9992 2.00231 17.9352 1.76824 17.8309 1.55737Z"/>
+                        </svg>
+                        <p class="footer_mail_txt">info@a-pallet.ru</p>
+                    </div>
+                    <div class="footer_time">
+                        <svg class="footer_time_svg" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.5 0C3.35795 0 0 3.35787 0 7.5C0 11.6421 3.35787 15 7.5 15C11.6421 15 15 11.6421 15 7.5C15 3.35787 11.6421 0 7.5 0ZM7.5 2.27273C7.75112 2.27273 7.95451 2.47628 7.95451 2.72723V7.23697L11.4701 9.26826C11.6875 9.39382 11.759 9.66872 11.6334 9.88624C11.5079 10.1036 11.233 10.1751 11.0154 10.0495C9.76889 9.33041 8.51552 8.6072 7.27246 7.89048C7.13675 7.81185 7.04512 7.6679 7.04512 7.49985V2.72713C7.04512 2.47601 7.24868 2.27262 7.49963 2.27262L7.5 2.27273Z"/>
+                        </svg>
+                        <p class="footer_time_txt">Пн-Вс с 9:00 до 20:00</p>
+                    </div>
+                </div>
+
+                <div class="footer_element_revers">
+                    <p class="footer_revers_txt">Заказы принимаются круглосуточно</p>
+                    <button class="footer_button">
+                        <svg class="footer_button_svg" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5579 18.0758C11.9674 18.0758 11.3844 17.9073 10.8857 17.5882C6.54331 14.8088 2.91579 10.9649 0.395448 6.47178C-0.285023 5.25866 -0.0721436 3.72327 0.913162 2.738L2.84405 0.807113C3.60217 0.0489962 4.83566 0.0489962 5.59377 0.807113L7.29552 2.50886C8.05364 3.26694 8.05364 4.50047 7.29552 5.25854L6.28938 6.26469C7.73324 8.28276 9.45301 10.0727 11.4111 11.5957L12.522 10.485C13.2801 9.72682 14.5135 9.72686 15.2716 10.485L16.9758 12.1892C17.732 12.9454 17.7336 14.1773 16.9794 14.9354L14.7727 17.1533C14.2729 17.6557 13.6102 17.9763 12.9067 18.0561C12.7905 18.0693 12.674 18.0758 12.5579 18.0758V18.0758Z"/>
+                            <path d="M17.927 1.12089H11.8695C12.0274 0.937253 12.061 0.667254 11.9331 0.445656C11.7711 0.16514 11.4125 0.06908 11.132 0.231017L9.4546 1.19943C9.27315 1.30417 9.16138 1.49778 9.16138 1.70729C9.16138 1.91681 9.27315 2.11042 9.4546 2.21516L11.132 3.18357C11.2243 3.2369 11.3252 3.26223 11.4247 3.26223C11.6273 3.26223 11.8245 3.15706 11.9331 2.96893C12.061 2.74733 12.0273 2.47737 11.8695 2.29374H17.927C18.423 2.29374 18.8264 2.69717 18.8264 3.19311C18.8264 3.68905 18.423 4.09248 17.927 4.09248H13.1157C12.7918 4.09248 12.5293 4.35505 12.5293 4.67893C12.5293 5.0028 12.7918 5.26537 13.1157 5.26537H17.927C19.0697 5.26537 19.9993 4.33578 19.9993 3.19311C19.9993 2.05048 19.0697 1.12089 17.927 1.12089V1.12089Z"/>
+                        </svg>
+                        <p class="footer_button_txt">Обратный звонок</p>
+                    </button>
+                    <div class="footer_info_call">
+                        <svg class="footer_call_svg" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.9367 19.1455L21.3592 15.5681C20.0816 14.2904 17.9096 14.8015 17.3985 16.4624C17.0152 17.6123 15.7376 18.2512 14.5877 17.9956C12.0324 17.3568 8.58269 14.0349 7.94387 11.3518C7.56057 10.2019 8.32716 8.9242 9.47705 8.54096C11.138 8.02989 11.6491 5.85788 10.3714 4.58023L6.79398 1.0028C5.77186 0.108442 4.23867 0.108442 3.34431 1.0028L0.916773 3.43034C-1.51077 5.98565 1.1723 12.7572 7.17728 18.7622C13.1822 24.7672 19.9538 27.578 22.5091 25.0227L24.9367 22.5951C25.8311 21.573 25.8311 20.0398 24.9367 19.1455Z"/>
+                        </svg>
+                        <p class="footer_call_txt">+7 495 155 73 97</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="footer_line"></div>
+
+            <a href="#" class="footer_politica">Политика конфиденциальности</a>
+
+        </div>
+    </footer>
+
+    <script>
+        const anchors = document.querySelectorAll('a[href^="#"]')
+
+        // Цикл по всем ссылкам
+        for(let anchor of anchors) {
+        anchor.addEventListener("click", function(e) {
+            e.preventDefault() // Предотвратить стандартное поведение ссылок
+            // Атрибут href у ссылки, если его нет то перейти к body (наверх не плавно)
+            const goto = anchor.hasAttribute('href') ? anchor.getAttribute('href') : 'body'
+            // Плавная прокрутка до элемента с id = href у ссылки
+            document.querySelector(goto).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+            })
+        })
+        }
+    </script>
+
+</body>
+</html>
